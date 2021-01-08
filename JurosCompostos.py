@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 def informar_dados():
-    valor_inicial = float(input('Digite o valor inicial: '))
+    valor_inicial = float(input('Digite o investimento inicial: '))
     rendimento = float(input('Digite o rendimento por período(%): '))
     valor_aporte = float(input('Digite o valor do aporte por período: '))
     total_periodos = int(input('Digite o número de períodos: '))
